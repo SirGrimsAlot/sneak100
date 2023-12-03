@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "sneak100",
+  "version": "${version}",
+  "name": "sneak100",
+  "description": "sneaky peaky",
+  "authors": [
+    "ik"
+  ],
+  "contact": {
+    "website": "mijn website",
+    "repo": "https://github.com/Thomas/sneak100"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/sneak100/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "grim.lithium.sneak100.client.Sneak100Client"
+    ],
+    "main": [
+      "grim.lithium.sneak100.Sneak100"
+    ]
+  },
+  "mixins": [
+    "sneak100.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
