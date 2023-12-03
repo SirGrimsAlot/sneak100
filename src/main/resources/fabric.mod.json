@@ -15,9 +15,6 @@
   "icon": "assets/sneak100/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "grim.lithium.sneak100.client.Sneak100Client"
-    ],
     "main": [
       "grim.lithium.sneak100.Sneak100"
     ]
